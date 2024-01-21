@@ -1,0 +1,14 @@
+{
+  "name": "javacript-useful",
+  "version": "1.0.0",
+  "description": "JavaScript from ... to ...",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -o",
+    "css": "sass --source-map --style expanded style.scss style.css"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.4",
+    "sass": "^1.42.1"
+  }
+}
