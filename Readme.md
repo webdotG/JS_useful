@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/javascript/javascript-original.svg" width="75px" height="75px">
+ # useful <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/javascript/javascript-original.svg" width="100px" height="100px">
 
 
 Здесь я потихоньку собираю различные полезности по JS  
