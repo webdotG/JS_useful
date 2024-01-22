@@ -1,24 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./G.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
     <link rel="stylesheet" href="style.css">
     <title>JavaScript полезности</title>
 </head>
+
 <body>
 
-    <h1>JavaScript задачи и примеры</h1>
+    <ul class="task-and-example">
+        <h2 class="task__title">JavaScript задачи и примеры</h2>
+        <li class="task">
+            <section class="task__wrapper">
+                <h3 class="task__title-example">Задача:</h3>
+                <p class="task__example">
+                    Написать функцию которая принимает массив чисел<br>
+                    и возвращает сумму всех положительных элементов массива
+                </p>
+                <h3 class="task__title-example">Данные:</h3>
+                <p class="task__example">
+                    [-1, 7, 4, -21, 9, 0, -2]
+                </p>
+                <h3 class="task__title-example">Решение:</h3>
+                <pre>
+<code class="language-javascript">
+function getPositiveFunction(array) {
+    let result = 0
+    for(let i = 0; i < array.length; i++){
+        if(array[i] > 0) {
+        result += array[i]
+        }
+    }
+    return result
+}
+</code>
+            </pre>
+                <textarea class="task__code"></textarea>
+                <button class="task__btn-result" onclick="runCode(this)">Выполнить</button>
+                <div class="task__result"></div>
+                <section />
+        <li/>
 
-    <div class="task__wrapper">
-        <p class="task">задача</p>
-        <p class="task__example-solution">пример решения</p>
-        <textarea class="task__code"></textarea>
-        <button class="task__btn-result" onclick="runCode(this)">Выполнить</button>
-        <div class="task__result"></div>
-    </div>
+        
+        </ul>
 
     <script src="./taskSandboxResult.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
 </body>
+
 </html>

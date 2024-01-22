@@ -5,10 +5,10 @@ function runCode(button) {
   const container = button.parentElement;
   
   //нахожу элемент textarea с классом 'code' внутри контейнера
-  const codeInput = container.querySelector('.code');
+  const codeInput = container.querySelector('.task__code');
   
   //нахожу элемент с классом 'result' внутри контейнера
-  const resultOutput = container.querySelector('.result');
+  const resultOutput = container.querySelector('.task__result');
 
   try {
 

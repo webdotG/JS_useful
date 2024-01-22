@@ -1,23 +1,88 @@
-@media (min-width: 320px) {
-  body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+@media (min-width: 340px) {
+  .task {
+    width: 340px;
+    margin: 0 auto;
   }
-  .code-container {
-    margin-bottom: 20px;
+  .task__title {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    text-align: center;
   }
-  textarea {
-    width: 100%;
+  .task__wrapper {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+  }
+  .task__title-example {
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: underline;
+  }
+  .task__example {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    font-size: 16px;
+  }
+  pre .language-javascript {
+    font-size: 12px;
+  }
+  .task__code {
+    display: block;
+    width: 300px;
     height: 150px;
+    margin: 0 auto;
+    padding: 10px;
     margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
   }
-  button {
+  .task__btn-result {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 200;
+    background-color: transparent;
     cursor: pointer;
   }
-  .result {
-    border: 1px solid #ccc;
+  .task__result {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 10px;
     padding: 10px;
-    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 20px;
   }
 }
 
